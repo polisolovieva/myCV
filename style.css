@@ -168,15 +168,16 @@ p{
     color: #2a7da2;
     font-size: 16px;
 }
-.skills .box{
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    justify-content: center;
-    align-items: center;
+.about .box .projects ul{
+    list-style-type: none;
 }
-.skills .box h4{
+.projects li{
+    margin-bottom: 10px;
+}
+.projects li p{
+    font-weight: 500;
+}
+.skills h4{
     text-transform: uppercase;
     color: #848c99;
     font-weight: 500;
